@@ -22,5 +22,5 @@ function makeInt(n) {
 function preserveDecimal(n) {
   var float = parseFloat(n);
   var int = parseInt(n, 10);
-  return float-int;
+  return parseFloat(n)-parseInt(n, 10);
 }
